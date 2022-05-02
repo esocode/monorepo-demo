@@ -4,7 +4,7 @@ plugins {
 }
 
 version = "0.1"
-group = "com.example.app1"
+group = "com.example.app3"
 
 repositories {
     mavenCentral()
@@ -25,7 +25,7 @@ dependencies {
 
 
 application {
-    mainClass.set("com.example.app1.Application1")
+    mainClass.set("com.example.app3.Application3")
 }
 java {
     sourceCompatibility = JavaVersion.toVersion("11")
@@ -38,7 +38,7 @@ micronaut {
     testRuntime("junit5")
     processing {
         incremental(true)
-        annotations("com.example.app1.*")
+        annotations("com.example.app3.*")
     }
 }
 
