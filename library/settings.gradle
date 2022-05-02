@@ -1,2 +1,3 @@
+rootProject.name = "library"
 
-rootProject.name="library"
+includeBuild("../baselib")
