@@ -12,4 +12,8 @@ public class Controller3 implements TestApi {
 	public String getValue() {
 		return "APP3";
 	}
+	@Override
+	public String getBase(){
+		return "BASE";
+	}
 }

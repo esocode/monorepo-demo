@@ -9,13 +9,4 @@ import jakarta.inject.Inject;
 
 @MicronautTest
 class LibraryTest {
-
-    @Inject
-    EmbeddedApplication<?> application;
-
-    @Test
-    void testItWorks() {
-        Assertions.assertTrue(application.isRunning());
-    }
-
 }

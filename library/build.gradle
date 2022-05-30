@@ -11,7 +11,7 @@ repositories {
 }
 
 dependencies {
-    implementation("com.example.base:baselib")
+    api("com.example.base:baselib")
 
     annotationProcessor("io.micronaut:micronaut-http-validation")
     implementation("io.micronaut:micronaut-http-client")
